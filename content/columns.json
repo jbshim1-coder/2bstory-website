@@ -1,0 +1,51 @@
+{
+  "_comment": "대표 칼럼 메타데이터. content 필드는 Phase 4에서 Sanity 이관 후 추가.",
+
+  "columns": [
+    {
+      "id": "col-01",
+      "title": "2026년 병원 개원 마케팅 3대 트렌드",
+      "category": "hospital",
+      "date": "2026-05-01",
+      "summary": "AI 검색 시대에 병원 개원 마케팅은 어떻게 달라지는가.",
+      "slug": "hospital-marketing-trends-2026",
+      "readingTime": "5분"
+    },
+    {
+      "id": "col-02",
+      "title": "B2B 리드 단가를 절반으로 줄인 3가지 방법",
+      "category": "b2b",
+      "date": "2026-04-15",
+      "summary": "키워드 분리, 랜딩 최적화, MA 도입 — 실제 케이스로 설명합니다.",
+      "slug": "b2b-lead-cost-reduction",
+      "readingTime": "7분"
+    },
+    {
+      "id": "col-03",
+      "title": "원장님이 책을 써야 하는 이유",
+      "category": "hospital",
+      "date": "2026-04-01",
+      "summary": "책은 가장 긴 수명을 가진 마케팅 자산입니다. 실제 사례 포함.",
+      "slug": "why-doctors-should-write-books",
+      "readingTime": "6분"
+    },
+    {
+      "id": "col-04",
+      "title": "검색 광고가 효과 없다고 느껴질 때 점검할 5가지",
+      "category": "general",
+      "date": "2026-03-15",
+      "summary": "광고비는 늘었는데 전환은 줄었다면, 이 5가지를 먼저 확인하세요.",
+      "slug": "search-ad-troubleshooting",
+      "readingTime": "5분"
+    },
+    {
+      "id": "col-05",
+      "title": "가맹점 모집 광고, 1호점부터 200호점까지 달랐던 것",
+      "category": "franchise",
+      "date": "2026-03-01",
+      "summary": "놀숲 만화방 사례로 보는 가맹 성장 단계별 마케팅 전략.",
+      "slug": "franchise-growth-stages",
+      "readingTime": "8분"
+    }
+  ]
+}

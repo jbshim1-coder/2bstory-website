@@ -1,0 +1,57 @@
+{
+  "_comment": "케이스 스터디. result 필드의 [수치 보강 필요]는 OPEN_ITEMS.md의 I-5 항목.",
+  "_displayRule": "result에 '보강 필요' 포함 시 '케이스 데이터 준비 중' UI로 표시.",
+
+  "cases": [
+    {
+      "id": "case-hospital-01",
+      "industry": "hospital",
+      "subtype": "eye",
+      "anonymousTitle": "강남 소재 안과 의원",
+      "challenge": "월 광고비 증가에도 신환 수 정체. 라식·라섹·백내장 키워드 혼재로 효율 저하.",
+      "action": "GA 감사 → 시술별 랜딩 3개 분리 → 네이버 플레이스 최적화",
+      "result": "[수치 보강 필요]",
+      "period": "3개월"
+    },
+    {
+      "id": "case-b2b-01",
+      "industry": "b2b",
+      "subtype": "saas",
+      "anonymousTitle": "국내 IT 솔루션 기업 (직원 50명대)",
+      "challenge": "월 광고비 500만원. 리드 단가 너무 높음. MQL→SQL 전환율 5% 미만.",
+      "action": "GA 감사 → 직무·문제·솔루션 키워드 분리 → 산업별 랜딩 3개 → 폼 최적화",
+      "result": "[수치 보강 필요]",
+      "period": null
+    },
+    {
+      "id": "case-franchise-01",
+      "industry": "franchise",
+      "subtype": "comicbook",
+      "anonymousTitle": "만화방 프랜차이즈 (1호점 오픈 단계)",
+      "challenge": "브랜드 인지도 없음. 가맹 문의 유입 자체가 없는 상태.",
+      "action": "1호점 매출 데이터 기반 페르소나 설계 → 창업·소자본·만화방가맹 키워드 → 로컬 패키지",
+      "result": "200호점 달성 (투비스토리 1호점부터 진행) / [추가 수치 보강 필요]",
+      "period": null
+    },
+    {
+      "id": "case-education-01",
+      "industry": "education",
+      "subtype": "language",
+      "anonymousTitle": "국내 중형 어학원",
+      "challenge": "신학기마다 수강 전환율 들쭉날쭉. 학습자·결제자 구분 없는 단일 광고.",
+      "action": "의사결정자 3분류(학습자·결제자·추천인) 별도 메시지 → 시즌별 자동전환 → 무료체험 퍼널",
+      "result": "[수치 보강 필요]",
+      "period": null
+    },
+    {
+      "id": "case-ngo-01",
+      "industry": "ngo",
+      "subtype": null,
+      "anonymousTitle": "국내 비영리 단체 (해외 지부 연계)",
+      "challenge": "정기 후원자 수 증가 정체. 캠페인 시즌에만 반짝 반응.",
+      "action": "정기·일시·서명 후원 각각 별도 CTA → 스토리텔링 콘텐츠 → SNS 운영 일원화",
+      "result": "[수치 보강 필요]",
+      "period": null
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+/* ============================================================
+   투비스토리 디자인 토큰 (Design Tokens)
+   추출 기준: 투비스토리_로고.jpg (로고 픽셀 분석)
+   사용법: 이 파일을 글로벌 CSS에 import 또는 :root에 직접 삽입
+   ============================================================ */
+
+:root {
+  /* === 브랜드 컬러 === */
+  --brand-primary:        #F4751A;  /* 메인 오렌지 — 로고 정확값 */
+  --brand-primary-soft:   #F07020;  /* 부드러운 오렌지 — 큰 면적/배경용 */
+  --brand-primary-dark:   #C95A0E;  /* 호버/액티브 — 메인보다 한 단계 진하게 */
+  --brand-primary-light:  #FFF6F0;  /* 연한 오렌지 — CTA 박스 배경 */
+
+  /* === 텍스트 컬러 === */
+  --text-primary:   #1F1F1F;        /* 본문·헤딩 메인 */
+  --text-secondary: #555555;        /* 부가 텍스트 */
+  --text-muted:     #888888;        /* 캡션·메타 */
+  --text-on-brand:  #FFFFFF;        /* 오렌지 배경 위 텍스트 */
+
+  /* === 배경 컬러 === */
+  --bg-base:    #FFFFFF;
+  --bg-soft:    #F8F8F8;            /* 섹션 배경 */
+  --bg-line:    #E5E5E5;            /* 구분선·테두리 */
+
+  /* === 시맨틱 === */
+  --color-success: #2E7D32;
+  --color-warning: #ED6C02;
+  --color-error:   #C62828;
+
+  /* === 타이포그래피 === */
+  --font-sans-kr: "Pretendard", "Noto Sans KR", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans-en: "Inter", "Pretendard", sans-serif;
+  --font-mono:    "JetBrains Mono", monospace;
+
+  --fs-display: 56px;   /* 히어로 메인 카피 */
+  --fs-h1:      40px;   /* 페이지 제목 */
+  --fs-h2:      28px;   /* 섹션 제목 */
+  --fs-h3:      22px;   /* 서브 섹션 */
+  --fs-body:    16px;   /* 본문 */
+  --fs-small:   14px;   /* 부가 텍스트 */
+  --fs-caption: 12px;   /* 캡션 */
+
+  --lh-tight:   1.2;
+  --lh-base:    1.6;
+  --lh-loose:   1.8;
+
+  --fw-regular: 400;
+  --fw-medium:  500;
+  --fw-bold:    700;
+
+  /* === 레이아웃 === */
+  --container-max: 1200px;
+  --gutter:        24px;
+  --section-py:    96px;       /* 섹션 상하 패딩 (PC) */
+  --section-py-m:  56px;       /* 섹션 상하 패딩 (모바일) */
+
+  /* === 라운딩 === */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-pill: 9999px;
+
+  /* === 그림자 === */
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+  --shadow-lg: 0 12px 32px rgba(0,0,0,0.12);
+
+  /* === 모션 === */
+  --ease-out:  cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast:  150ms;
+  --dur-base:  250ms;
+  --dur-slow:  400ms;
+}
+
+/* ============================================================
+   유틸리티 클래스 예시
+   ============================================================ */
+
+.btn-primary {
+  background: var(--brand-primary);
+  color: var(--text-on-brand);
+  padding: 14px 28px;
+  border-radius: var(--radius-md);
+  font-weight: var(--fw-bold);
+  transition: background var(--dur-base) var(--ease-out);
+}
+.btn-primary:hover { background: var(--brand-primary-dark); }
+
+.btn-outline {
+  background: transparent;
+  color: var(--brand-primary);
+  border: 2px solid var(--brand-primary);
+  padding: 12px 26px;
+  border-radius: var(--radius-md);
+  font-weight: var(--fw-bold);
+}
+
+.cta-box {
+  background: var(--brand-primary-light);
+  border: 2px solid var(--brand-primary);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  text-align: center;
+}
+.cta-box h3 { color: var(--brand-primary); font-size: var(--fs-h2); }
+
+/* ============================================================
+   로고 사용 가이드 (주석)
+   ============================================================
+   • 메인 로고: /assets/01_logo/2bstory_logo.jpg (또는 .ai에서 파생한 .svg)
+   • 권장: .ai 파일을 .svg로 변환해 사용 (확대해도 깨지지 않음)
+   • 최소 표시 너비: 80px (가독성 한계)
+   • 로고 주변 여백: 로고 높이의 20% 이상
+   • 배경색이 진할 때는 흰색 반전 버전 별도 준비 필요
+   ============================================================ */

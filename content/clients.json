@@ -1,0 +1,31 @@
+{
+  "_comment": "광고주 로고 메타데이터. logoSrc가 빈 값이면 회사명 텍스트 fallback.",
+  "_legalNote": "각 회사로부터 로고 게재 동의를 받은 것만 logoSrc 입력. 미동의 시 logoSrc 빈 값 또는 noLogo:true 처리.",
+
+  "clients": [
+    { "id": "c01", "name": "국립암센터",          "logoSrc": "", "category": "hospital", "noLogo": true },
+    { "id": "c02", "name": "GS안과",            "logoSrc": "", "category": "hospital", "noLogo": true },
+    { "id": "c03", "name": "새빛안과병원",        "logoSrc": "", "category": "hospital", "noLogo": true },
+    { "id": "c04", "name": "아이디성형외과",       "logoSrc": "", "category": "hospital", "noLogo": true },
+    { "id": "c05", "name": "청구경희한의원",       "logoSrc": "", "category": "hospital", "noLogo": true },
+
+    { "id": "c06", "name": "YBM NET",          "logoSrc": "", "category": "education", "noLogo": true },
+    { "id": "c07", "name": "파고다어학원",        "logoSrc": "", "category": "education", "noLogo": true },
+    { "id": "c08", "name": "한솔교육",           "logoSrc": "", "category": "education", "noLogo": true },
+    { "id": "c09", "name": "매일경제 교육센터",     "logoSrc": "", "category": "education", "noLogo": true },
+    { "id": "c10", "name": "서강대학교 경영전문대학원","logoSrc": "", "category": "education", "noLogo": true },
+
+    { "id": "c11", "name": "한국HP",           "logoSrc": "", "category": "general", "noLogo": true },
+    { "id": "c12", "name": "SK렌터카",         "logoSrc": "", "category": "general", "noLogo": true },
+    { "id": "c13", "name": "CJ푸드빌",         "logoSrc": "", "category": "general", "noLogo": true },
+    { "id": "c14", "name": "GSSHOP",          "logoSrc": "", "category": "general", "noLogo": true },
+    { "id": "c15", "name": "달바",             "logoSrc": "", "category": "general", "noLogo": true },
+
+    { "id": "c16", "name": "국민건강보험공단",      "logoSrc": "", "category": "public", "noLogo": true },
+    { "id": "c17", "name": "대한장애인체육회",      "logoSrc": "", "category": "public", "noLogo": true },
+    { "id": "c18", "name": "중소기업기술혁신협회",   "logoSrc": "", "category": "public", "noLogo": true },
+
+    { "id": "c19", "name": "국제앰네스티 한국지부",  "logoSrc": "", "category": "ngo", "noLogo": true },
+    { "id": "c20", "name": "아름다운재단",         "logoSrc": "", "category": "ngo", "noLogo": true }
+  ]
+}
