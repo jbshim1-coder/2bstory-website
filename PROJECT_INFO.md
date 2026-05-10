@@ -7,7 +7,7 @@
 
 ## 배포
 - **Vercel URL**: (배포 후 기록)
-- **GitHub 저장소**: (연동 후 기록)
+- **GitHub 저장소**: https://github.com/jbshim1-coder/2bstory-website
 
 ## 외부 서비스
 - (연동 후 기록)
