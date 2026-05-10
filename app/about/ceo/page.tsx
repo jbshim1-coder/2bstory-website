@@ -43,7 +43,7 @@ export default function CeoPage() {
             {/* 사진 */}
             <div className="relative aspect-[3/4] max-w-sm">
               <Image
-                src="/assets/photos/심진보_프로필사진.jpg"
+                src="/assets/photos/ceo_profile.jpg"
                 alt="심진보 대표"
                 fill
                 className="object-cover rounded-sm"
